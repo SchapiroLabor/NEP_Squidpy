@@ -14,8 +14,8 @@ CellCharter offers a nhood_enrichment function that calculates asymmetric NEPs b
 We ran Squidpy 3.10.15 with Python version 3.10.15 and installed it with 
 
 ```
-conda create -n "cellcharter_env" python=3.10.15
-conda activate cellcharter_env
+conda create -n "squidpy_env" python=3.10.15
+conda activate squidpy_env
 pip install squidpy==3.10.15
 pip install ipykernel==6.29.5
 conda install jupyter==1.1.1
@@ -29,7 +29,7 @@ pip install cellcharter==0.3.3
 pip install ipykernel==6.29.5
 conda install jupyter==1.1.1
 ```
-The scripts were run on an M2 MacBookPro.
+The respective environment files are in the `/envs`folder. The scripts were run on an M2 MacBookPro.
 
 ## Source
 
@@ -42,7 +42,7 @@ Simulated .csv data with x, y, and ct annotation columns were used. The asymmetr
 
 ### Myocardial infarction (MI) data
 
-UPDATE PATH
+Sequential Immunofluorescence data was accessed via Synapse (project SynID : syn51449054): https://www.synapse.org/Synapse:syn51449054. The dataframe with phenotypes was accessed within the project at:  https://www.synapse.org/Synapse:syn65487454.
 
 ## Scripts
 
